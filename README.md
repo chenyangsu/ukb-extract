@@ -19,16 +19,15 @@ They can be one of the following types:
 * Compound
 
 ## <b>extract.py</b>
-1. Webscrape descriptions, categories and variable-types for each field-id from: 
-2. http://biobank.ctsu.ox.ac.uk/crystal/list.cgi.
-3. Enumerate field-id’s for each variable type.
+1. Webscrape descriptions, categories and variable-types for each field-id from: http://biobank.ctsu.ox.ac.uk/crystal/list.cgi.
+2. Enumerate field-id’s for each variable type.
     <pre>
     * Output/Integer.datafields
     * Output/Categorical_single.datafields
     * Output/Categorical_multiple.datafields
     * Output/Continuous.datafields
     </pre>
-4. Split UK Biobank by variable types: Integer, Categorical and Continuous. 
+3. Split UK Biobank by variable types: Integer, Categorical and Continuous. 
     * For continuous and integer features, encode missing values as ‘NA’.
         <pre>
         * Output/Integer.phenoslice.csv
@@ -41,7 +40,7 @@ They can be one of the following types:
             * Output/Categorical_single.phenoslice.csv
             * Output/Categorical_multiple.phenoslice.csv
         </pre>
-5. Merge dataset into a single file.
+4. Merge dataset into a single file.
     * Output/features_merged.csv
 
 ### Note:
