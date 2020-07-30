@@ -46,16 +46,3 @@ They can be one of the following types:
     * ex) c.3606.1 would be the indicator that an individual is in category 1 (‘Yes’) for data-field 3606.
 
 To look up the significance of a field, use the UK Biobank data showcase: http://biobank.ndph.ox.ac.uk/showcase/
-
-## <b> <pre>2) write_memmaps.py</pre></b>
-1. Read Output/features_merged.csv to get dimensions of memmap.
-2. Initialize memmap of this size
-3. Populate memmap
-4. Write header to file
-    <pre>
-    * Output/ukb.header
-    </pre>
-5. Write eids (index) to file. 
-    <pre>
-    * Output/ukb.eidlist
-    </pre>
