@@ -18,7 +18,7 @@ They can be one of the following types:
 * Time
 * Compound
 
-## <b><pre>extract.py</pre></b>
+## <b>extract.py</b>
 1. Webscrape descriptions, categories and variable-types for each field-id from: 
 2. http://biobank.ctsu.ox.ac.uk/crystal/list.cgi.
 3. Enumerate field-id’s for each variable type.
