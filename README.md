@@ -2,7 +2,7 @@
 
 ## Usage
         1. Open extract.py and set paths and user-options
-        2. <pre> python extract.py </pre>
+        2. python extract.py
 
 Data-field names in UKB file are coded as
 <pre>f . field-id . visit number . instance number</pre>
